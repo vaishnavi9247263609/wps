@@ -1,0 +1,12 @@
+.pt-3-half {background-color:yellow;
+padding-top: 1.4rem;
+}
+
+.table, th, tr,td {height:100%;
+color:black;
+    border: 1px solid black;
+  }
+.table{
+    
+    width:100%;}
+.text-center{background-color: green;}
