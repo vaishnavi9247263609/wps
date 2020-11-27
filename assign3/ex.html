@@ -1,0 +1,645 @@
+<html>
+<style>
+.myTable{background-color:yellow;
+padding-top: 1.4rem;
+}
+
+.table,td{height:50%;
+background-color:yellow;
+color:red;
+    border: 1px solid blue;
+  }
+.bg { background-color: yellow; color:red; width: 100%; height: 100%; display: block; }
+.table{
+    
+    width:50%;}
+.text-center{background-color: green;}
+</style>
+
+<table cellspacing="1"  width="100%" border="1" id="myTable">
+    <tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+<td>TOTAL<type="NULL" value="" onchange="doAdd(this)"></td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+ 
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+           <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+           <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+ <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+ <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+ <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+            <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+         <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+      <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+      <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+      <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+     <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+      <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+<tr>
+       <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+          <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td><input type="text" value="0" onchange="doAdd(this)"></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+<script type="text/javascript">
+    function getColumnCount()
+    {
+        return document.getElementById('myTable').getElementsByTagName('tr')[0].getElementsByTagName('td').length;         
+    }
+ 
+    function getRowCount()
+    {
+        return document.getElementById('myTable').rows.length;
+    }
+ 
+    function doAdd(ths)
+    {
+        //alert(ths.parentNode.cellIndex);
+        //alert(getColumnCount());
+        var lastCol = getColumnCount()-1;
+        var lastRow = getRowCount()-1;
+        //for Column Sum
+         var table = document.getElementById("myTable");
+       var row = table.rows[ths.parentNode.parentNode.rowIndex];
+       var colSum=0;
+       for(var i=1;i<lastCol;i++)
+            colSum=eval(colSum) + eval(row.cells[i].childNodes[0].value);
+        row.cells[lastCol].innerHTML = colSum;
+ 
+        //for Row Sum
+        var cIndex = ths.parentNode.cellIndex;
+        //alert(cIndex);
+        var rowSum = 0;
+        for(var i=3;i<lastRow;i++)
+            rowSum = eval(rowSum) + parseInt(table.rows[i].cells[cIndex].childNodes[0].value);
+        table.rows[lastRow].cells[cIndex].innerHTML = rowSum;
+ 
+ 
+        //for the final Value in the last row last column
+        var finSum = 0;
+        for(var i=3;i<lastRow;i++)
+            finSum = eval(finSum) + parseInt(table.rows[i].cells[lastCol].innerHTML);
+        for(var i=1;i<lastCol;i++)
+            finSum=eval(finSum) + eval(table.rows[lastRow].cells[i].innerHTML);
+        table.rows[lastRow].cells[lastCol].innerHTML = finSum;
+    }
+</script>
+</html>
